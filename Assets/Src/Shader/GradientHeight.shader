@@ -20,6 +20,7 @@
         #pragma target 3.0
 
         struct Input {
+            // We need the local position for gradient sampling.
             float3 localPos;
         };
 
@@ -34,7 +35,10 @@
         }
 
         void surf (Input IN, inout SurfaceOutputStandard o) {
-            // Albedo comes from a texture tinted by color
+            // Here we assume MaxHeight is an extent from zero.
+            // We shift the coordinate up by the max height then divide by 2 * MaxHeight to get a 0-1 coordinate.
+            // This then becomes our X-Coord for sampling the gradient texture.
+            // The Y-Coord is always zero as the gradient texture is 1D.
             float2 uv = float2((IN.localPos.y + _MaxHeight) / (_MaxHeight * 2), 1.0);
             fixed4 c = tex2D (_MainTex, uv) * _Color;
             o.Albedo = c.rgb;
