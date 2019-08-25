@@ -364,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 2927993367431045770, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045769, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
@@ -379,127 +379,127 @@ PrefabInstance:
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key0.r
-      value: 0.29556784
+      value: 0.019607842
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key0.g
-      value: 0.43256906
+      value: 0.11615528
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key0.b
-      value: 0.509434
+      value: 0.36862746
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key1.r
-      value: 0.29803923
+      value: 0.4392157
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key1.g
-      value: 0.43529412
+      value: 0.7530686
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key1.b
-      value: 0.50980395
+      value: 0.8666667
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key2.r
-      value: 1
+      value: 0.6249827
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key2.g
-      value: 1
+      value: 0.7031484
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key2.b
-      value: 1
+      value: 0.09384262
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key3.r
-      value: 1
+      value: 0.5943396
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key3.g
-      value: 1
+      value: 0.36861122
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key3.b
-      value: 1
+      value: 0.21026166
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key4.r
-      value: 1
+      value: 0.4528302
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key4.g
-      value: 1
+      value: 0.4528302
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key4.b
-      value: 1
+      value: 0.4528302
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key5.r
-      value: 1
+      value: 0.6037736
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key5.g
-      value: 1
+      value: 0.6037736
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.key5.b
-      value: 1
+      value: 0.6037736
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime0
-      value: 0
+      value: 12914
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime1
-      value: 65535
+      value: 28720
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime2
-      value: 56509
+      value: 33346
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime3
-      value: 56509
+      value: 35466
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime4
-      value: 56509
+      value: 40092
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.ctime5
-      value: 56509
+      value: 53893
       objectReference: {fileID: 0}
     - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
         type: 3}
       propertyPath: HeightGradient.m_NumColorKeys
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35c7040fff9bf844ac61a2286418661, type: 3}
