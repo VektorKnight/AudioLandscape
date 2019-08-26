@@ -501,5 +501,15 @@ PrefabInstance:
       propertyPath: HeightGradient.m_NumColorKeys
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
+        type: 3}
+      propertyPath: LerpFactor
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927993367431045814, guid: a35c7040fff9bf844ac61a2286418661,
+        type: 3}
+      propertyPath: RoadExtent
+      value: 24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35c7040fff9bf844ac61a2286418661, type: 3}

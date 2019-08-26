@@ -7,22 +7,23 @@ namespace Scripts {
     public class MeshAudio : MonoBehaviour {  
         // Unity Inspector
         [Header("Mesh")]
-        public int SampleCount = 128;
-        public float HeightScale = 128;
-        public int RoadExtent = 16;
-        public AnimationCurve HeightCurve;
-        public AnimationCurve RoadCurve;
+        public int SampleCount = 128;         // Number of samples to use (must be a power of two).
+        public float HeightScale = 128;       // Maximum vertical offset from center in meters.
+        public int RoadExtent = 16;           // Extent of the road, in vertices, from the center of the mesh.
+        public AnimationCurve HeightCurve;    // Applied to the raw sample data to better emphasize features.
+        public AnimationCurve RoadCurve;      // Curves the data towards zero within the bounds of the road.
     
         [Header("Sampling")]
-        public int UpdateInterval;
-        public float LerpFactor;
+        public int UpdateInterval;            // How frequently, in frames, we should grab new samples from the source.
+        [Range(0, 1)] 
+        public float LerpFactor;              // Linear interpolation value between the two sample buffers.
 
         [Header("Rendering")] 
-        public Material HeightMaterial;
-        public Gradient HeightGradient;
+        public Material HeightMaterial;       // Height-based material to use for the mesh.
+        public Gradient HeightGradient;       // Gradient to be used by the shader.
     
         // Circular Samples Buffer
-        private CircularBuffer<float> _offsets;
+        private CircularBuffer<float> _offsets;    
     
         // Required components.
         private AudioSource _audioSource;
@@ -105,7 +106,7 @@ namespace Scripts {
             // Push modified sample data into the offset buffer.
             for (var i = 0; i < _sampleNew.Length; i++) {
                 // Interpolate between the previous and incoming sample data.
-                var sample = Mathf.Lerp(_samplePrev[i], _sampleNew[i], Time.deltaTime * LerpFactor);
+                var sample = Mathf.Lerp(_samplePrev[i], _sampleNew[i], LerpFactor);
             
                 // Apply the road curve.
                 if (i > _roadMin && i < _roadMax) {
